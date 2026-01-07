@@ -32,7 +32,7 @@ const CONFIG = {
         lerpSpeed: 0.08 
     },
     telescope: {
-        sides: 9,
+        sides: 20,
         innerRadiusFactor: 0.32,
         outerRadiusFactor: 0.46,
         rimWidth: 3,
@@ -45,7 +45,7 @@ const CONFIG = {
     },
     lenses: [
         { 
-            name: "Navy", targetFace: 4, symbol: "A", color: "#3282ff", 
+            name: "Navy", targetFace: 5, symbol: "A", color: "#3282ff", 
             constellationName: "Iso",
             nebulaColors: ["#001f3f", "#0074d9", "#7fdbff"],
             skeleton: {
@@ -54,7 +54,7 @@ const CONFIG = {
             }
         },
         { 
-            name: "Orange", targetFace: 1, symbol: "B", color: "#ff851b", 
+            name: "Orange", targetFace: 18, symbol: "B", color: "#ff851b", 
             constellationName: "Uolmar",
             nebulaColors: ["#ff4136", "#ff851b", "#ffdc00"],
             skeleton: {
@@ -63,7 +63,7 @@ const CONFIG = {
             }
         },
         { 
-            name: "White", targetFace: 8, symbol: "C", color: "#ffffff", 
+            name: "White", targetFace: 9, symbol: "C", color: "#ffffff", 
             constellationName: "Aneat",
             nebulaColors: ["#dddddd", "#aaaaaa", "#ffffff"],
             skeleton: {
@@ -72,7 +72,7 @@ const CONFIG = {
             }
         },
         { 
-            name: "Red", targetFace: 5, symbol: "I", color: "#ff4136", 
+            name: "Red", targetFace: 6, symbol: "I", color: "#ff4136", 
             constellationName: "Onisix",
             nebulaColors: ["#85144b", "#ff4136", "#3d9970"],
             skeleton: {
@@ -81,7 +81,7 @@ const CONFIG = {
             }
         },
         { 
-            name: "Cyan", targetFace: 2, symbol: "G", color: "#7fdbff", 
+            name: "Cyan", targetFace: 15, symbol: "G", color: "#7fdbff", 
             constellationName: "Elth",
             nebulaColors: ["#39cccc", "#2ecc40", "#01ff70"],
             skeleton: {
