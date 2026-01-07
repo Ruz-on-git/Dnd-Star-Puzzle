@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lens Alignment Puzzle</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        @font-face {
+            font-family: 'LensSymbols';
+            src: url('fonts/MagicRunicRedone.ttf') format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <canvas id="scene" tabindex="0"></canvas>
+    
+    <div id="ui-left">
+        <p class="title">Controls</p>
+        <p><kbd>Mouse Wheel</kbd> or <kbd>←</kbd> <kbd>→</kbd> rotate lens</p>
+        <p><kbd>1</kbd> - <kbd>5</kbd> select lens</p>
+    </div>
+
+    <div id="ui-right">
+        <p class="title">Lenses</p>
+        <div id="lens-status"></div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/lenses.js"></script>
+    <script src="js/stars.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
