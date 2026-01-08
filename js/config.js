@@ -45,45 +45,45 @@ const CONFIG = {
     },
     lenses: [
         { 
-            name: "Navy", targetFace: 5, symbol: "A", color: "#3282ff", 
+            name: "Cyan", targetFace: 5, symbol: "A", color: "#7fdbff", 
             constellationName: "Iso",
-            nebulaColors: ["#001f3f", "#0074d9", "#7fdbff"],
+            nebulaColors: ["#39cccc", "#2ecc40", "#01ff70"],
             skeleton: {
                 points: [[0.51, 0.48], [0.35, 0.16], [0.71, 0.47], [0.27, 0.47], [0.37, 0.79], [0.69, 0.77]],
                 lines: [[0,1], [0,2], [0,3], [0,4], [0,5]]
             }
         },
         { 
-            name: "Orange", targetFace: 18, symbol: "B", color: "#ff851b", 
+            name: "Red", targetFace: 18, symbol: "B", color: "#ff4136", 
             constellationName: "Uolmar",
-            nebulaColors: ["#ff4136", "#ff851b", "#ffdc00"],
+            nebulaColors: ["#85144b", "#ff4136", "#3d9970"],
             skeleton: {
                 points: [[0.51, 0.05], [0.51, 0.21], [0.70, 0.44], [0.32, 0.44], [0.51, 0.70], [0.51, 0.95]],
                 lines: [[0,1], [1,2], [1,3], [2,4], [3,4], [4,5]]
             }
         },
         { 
-            name: "White", targetFace: 9, symbol: "C", color: "#ffffff", 
+            name: "Orange", targetFace: 9, symbol: "C", color: "#ff851b",
             constellationName: "Aneat",
-            nebulaColors: ["#dddddd", "#aaaaaa", "#ffffff"],
+            nebulaColors: ["#ff4136", "#ff851b", "#ffdc00"],
             skeleton: {
                 points: [[0.75, 0.55], [0.72, 0.70], [0.52, 0.95], [0.25, 0.61], [0.36, 0.4], [0.55, 0.25], [0.50, 0.10], [0.53, 0.44], [0.49, 0.56], [0.52, 0.66]],
                 lines: [[0,1], [1,2], [2,3], [3,4],[4,5],[5,6],[5,7],[7,8], [8,9]]
             }
         },
         { 
-            name: "Red", targetFace: 6, symbol: "I", color: "#ff4136", 
+            name: "White", targetFace: 6, symbol: "I", color: "#ffffff", 
             constellationName: "Onisix",
-            nebulaColors: ["#85144b", "#ff4136", "#3d9970"],
+            nebulaColors: ["#dddddd", "#aaaaaa", "#ffffff"],
             skeleton: {
                 points: [[0.72, 0.05], [0.47, 0.10], [0.25, 0.33], [0.20, 0.58], [0.42, 0.90], [0.65, 0.92], [0.83, 0.64], [0.72, 0.44], [0.56, 0.42], [0.47, 0.50]],
                 lines: [[0,1],[1,2],[2,3],[3,4],[4,5],[5,6],[6,7],[7,8],[8,9]]
             }
         },
         { 
-            name: "Cyan", targetFace: 15, symbol: "G", color: "#7fdbff", 
+            name: "Navy", targetFace: 15, symbol: "G", color: "#3282ff", 
             constellationName: "Elth",
-            nebulaColors: ["#39cccc", "#2ecc40", "#01ff70"],
+            nebulaColors: ["#001f3f", "#0074d9", "#7fdbff"],
             skeleton: {
                 points: [[0.62, 0.92], [0.42, 0.95], [0.35, 0.75], [0.45, 0.59], [0.59, 0.52], [0.75, 0.25], [0.51, 0.07], [0.30, 0.16], [0.24, 0.36], [0.40, 0.47]],
                 lines: [[0,1],[1,2],[2,3],[3,4],[4,5],[5,6],[6,7],[7,8],[8,9],[9,4]]
